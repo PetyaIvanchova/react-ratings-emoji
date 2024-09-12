@@ -3,7 +3,7 @@
 
 The Emojis component is a React component that allows users to rate something using a row of emojis. Each emoji represents a rating, and users can click on an emoji to select their rating. The component supports different sizes, reverse order display, and custom styling and labels.
 
-![alt text](./package/emojis.png)
+![alt text](./emojis.png)
 
 Installation
 

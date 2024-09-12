@@ -1,0 +1,27 @@
+.emoji-rating-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  .emoji-wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .emoji {
+    opacity: 0.4; 
+    cursor: pointer; 
+    transition: opacity 0.3s ease; 
+  }
+  
+  .emoji.active {
+    opacity: 1; 
+  }
+  
+  .emoji-label {
+    margin-top: 8px; 
+    color: var(--emoji-label-color, #555); 
+  }
+  
