@@ -9,7 +9,7 @@ The Emojis component is a React component that allows users to rate something us
 
 ![alt text](./package/emojis.png)
 
-npm: https://www.npmjs.com/package/react-ratings-emoji?activeTab=readme
+npmjs.com : https://www.npmjs.com/package/react-ratings-emoji?activeTab=readme
 
 Installation
 
