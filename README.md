@@ -1,6 +1,7 @@
 # react-ratings-emoji
 
 [![NPM](https://img.shields.io/npm/v/react-ratings-emoji.png)](https://www.npmjs.com/package/react-ratings-emoji)
+[![NPM Downloads](https://img.shileds.io/npm/dt/react-ratings-emoji.svg)](https://www.npmjs.com/package/react-ratings-emoji)
 
 The Emojis component is a React component that allows users to rate something using a row of emojis. Each emoji represents a rating, and users can click on an emoji to select their rating. The component supports different sizes, reverse order display, and custom styling and labels.
 
