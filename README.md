@@ -85,7 +85,7 @@ The Emojis component uses CSS variables for dynamic styling. You can override th
 
 ```jsx
 import React from 'react';
-import {Emojis} from 'react-ratings-emmoji'; 
+import {Emojis} from 'react-ratings-emoji'; 
 
 function App() {
   const labels = ['Excellent', 'Good', 'Okay', 'Bad', 'Very Bad'];
