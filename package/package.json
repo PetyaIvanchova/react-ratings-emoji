@@ -1,6 +1,6 @@
 {
   "name": "react-ratings-emoji",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "react emoji rating component",
   "type": "module",
   "main": "dist/index.js",
@@ -23,7 +23,11 @@
     "react",
     "emoji",
     "rating",
-    "component"
+    "component",
+    "ui",
+    "react-ratings",
+    "npm package",
+    "customizable"
   ],
   "author": "Petya Ivanchova",
   "license": "ISC",

@@ -1,30 +1,25 @@
-
-import './App.css';
-import {Emojis} from 'react-ratings-emoji';
+import React, { useState } from 'react';
+import {Emojis} from 'react-ratings-emoji'; 
 
 function App() {
-  const labels = ['Excellent', 'Good', 'Okay', 'Bad', 'Very Bad'];
+  const [selectedEmoji, setSelectedEmoji] = useState(null);
 
+  const handleEmojiSelect = (index) => {
+    setSelectedEmoji(index);
+  };
   return (
-    <div>
-    <style>
-      {`
-        .custom-emoji-rating {
-          background-color: #f0f0f0;
-          border: 2px solid #ccc;
-          border-radius: 8px;
-          padding: 10px;
-          --emoji-label-color: #1154F0;
-        }
-      `}
-    </style>
-    <Emojis
-      labels={labels}
-      size="small"
-      reverse={false}
-      className="custom-emoji-rating"
-    />
-  </div>
+    <div className="App">
+      <h1>Your Rating: {selectedEmoji !== null ? selectedEmoji : "None"}</h1>
+      
+      <Emojis
+        labels={["Excellent", "Good", "Neutral", "Bad", "Very Bad"]}
+        size="large"
+        reverse={true}
+        heading="Please rate your experience:"
+        className="custom-emoji-rating"
+        onSelect={handleEmojiSelect} 
+      />
+    </div>
   );
 }
 
