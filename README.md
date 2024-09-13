@@ -77,7 +77,7 @@ The Emojis component uses CSS variables for dynamic styling. You can override th
 
 ```css
 .custom-style {
-  --emoji-label-color: #ff5722; 
+  color: #ff5722; 
 }
 ```
 
@@ -95,7 +95,7 @@ function App() {
       <style>
         {`
           .custom-style {
-            --emoji-label-color: #ff5722; 
+            color: #ff5722; 
           }
         `}
       </style>

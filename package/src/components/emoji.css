@@ -6,7 +6,7 @@
 
 .emoji-heading {
   font-size: 20px; /* Customize the size of the heading */
-  color: black;    /* Default color for the heading */
+  /* Default color for the heading */
   margin-bottom: 10px;
   text-align: center;
 }

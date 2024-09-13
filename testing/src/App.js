@@ -9,6 +9,16 @@ function App() {
   };
   return (
     <div className="App">
+      <style>
+       {`
+         .custom-emoji-rating {
+           background-color: #f0f0f0;
+           border: 2px solid #ccc;
+           border-radius: 8px;
+           padding: 10px;
+         }
+       `}
+     </style>
       <h1>Your Rating: {selectedEmoji !== null ? selectedEmoji : "None"}</h1>
       
       <Emojis

@@ -1,6 +1,6 @@
 {
   "name": "react-ratings-emoji",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "react emoji rating component",
   "type": "module",
   "main": "dist/index.js",

@@ -69,5 +69,5 @@ EmojiRating.args = {
   size: 'medium',
   reverse: false,
   heading: 'Rate Your Experience',
-  className: '',
+  className: 'custom-emoji-rating',
 };
